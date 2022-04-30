@@ -1,0 +1,48 @@
+
+
+
+#Obter lista de refris 
+GET http://localhost:3001/api/refrigerantes
+Content-Type: application/json
+###
+
+#Inserir novo refri
+POST http://localhost:3001/api/refrigerantes
+Content-Type: application/json
+
+{
+    "marca": "IT",
+    "quantidade": 1,
+    "precoLata": 10,00
+}
+###
+
+# Alterar refri
+PUT http://localhost:3001/api/refrigerantes
+Content-Type: application/json
+
+{
+    "_id": "62673e6ac84db1514f841102",
+    "marca": "IT",
+    "quantidade": 1,
+    "precoLata": 39.9
+}
+###
+
+
+
+# Excluir um refri
+DELETE http://localhost:3001/api/refrigerantes/62674037c84db1514f841114
+Content-Type: application/json
+###
+
+
+# Obter pelo id do refri
+GET http://localhost:3001/api/refrigerantes/5f6cb80e07cee54810920f5f
+Content-Type: application/json
+###
+
+# Obter refrigerantes filtrando
+GET http://localhost:3001/api/refrigerantes/filtro/guarana
+Content-Type: application/json
+###
