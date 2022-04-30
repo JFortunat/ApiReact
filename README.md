@@ -18,4 +18,4 @@
 
 **Assunto:**
 
-O nosso trabalho consiste em um CRUD de um gerenciador de estoque de bebidas de um bar, consumindo uma API node com o axios para o front
+O nosso trabalho consiste em um CRUD de um gerenciador de estoque de bebidas de um bar, consumindo uma API node com o axios para o front"# ApiReact" 
